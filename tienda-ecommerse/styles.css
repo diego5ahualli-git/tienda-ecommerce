@@ -1,0 +1,192 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(112, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  text-align: center;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+nav {
+  background-color: #232323;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to bottom, black, rgb(112, 0, 0));
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* Sección de contenido */
+section {
+  padding: 20px;
+  background-color: #000000;
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+section h2 {
+  color: #cacaca;
+}
+
+/* Formulario de login y registro */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgb(112, 0, 0);
+}
+
+/* Enlace de registro debajo del formulario */
+form p {
+  text-align: center;
+}
+
+form p a {
+  color: #4CAF50;
+}
+
+form p a:hover {
+  text-decoration: underline;
+}
+
+/* Sección de productos */
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.categories div {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.categories a {
+  display: block;
+  padding: 10px 15px;
+  background-color: rgb(112, 0, 0);
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.categories a:hover {
+  background-color: rgb(170, 0, 0);
+}
+
+/* Footer (si es necesario agregarlo) */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Sección de productos */
+.productos {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .productos div {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .productos a {
+    display: block;
+    padding: 10px 15px;
+    background-color: rgb(112, 0, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  .productos a:hover {
+    background-color: rgb(170, 0, 0);
+  }
+
