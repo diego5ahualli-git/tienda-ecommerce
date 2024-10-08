@@ -33,5 +33,15 @@
     <br>
     <p>¿No tienes cuenta? <a href="register.html">Regístrate aquí</a></p>
   </section>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Evita que el formulario realice una acción predeterminada
+
+      // Supongamos que el login es exitoso
+      window.localStorage.setItem("loggedIn", true); // Guarda el estado de login en localStorage
+      window.location.href = "index.html"; // Redirige a la página principal
+    });
+  </script>
 </body>
 </html>
